@@ -52,7 +52,7 @@ const Topics = ({ match }) => (
 )
 
 const BasicExample = () => (
-  <Router basename = {process.env.PUBLIC_URL + '/'}>
+  <Router basename = "/react-router-demo/">
     <div>
       <ul>
         <li><Link to="/">Home</Link></li>
